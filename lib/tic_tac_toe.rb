@@ -84,7 +84,7 @@ end
 
 def play(board)
   while !over?(board) do
-    display_board
-    turn
+    display_board(board)
+    turn(board)
   end
 end
